@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'montserrat';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    height: 65px;
+    width: 100%;
+    background-color:rgba(59, 59, 59, 0.144);
+}
+.a{
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    border-style: none;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+.a:hover{
+    color: teal;
+    cursor: pointer;
+}
+h1{
+    font-size: 50px;
+    margin-left: 120px;
+    margin-top: 250px;
+}
+h4{
+    font-size: 20px;
+    margin-left: 120px;
+}
+.c{
+    width: 450px;
+}
+#pic{
+    width: 400px;
+    height: 400px;
+    background-image: url(img.jpeg);
+    right: 15%;
+    position: absolute;
+    top: 27%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 400px;
+}
+#page2{
+    height: 45%;
+    width: 100%;
+    background-color:rgb(61,61,61);
+    text-align: center;
+}
+.ab{
+    color: white;
+    margin-top: 20px
+}
+p{
+    color: salmon;
+    font-size: 22px;
+}
+#page3{
+    height: 45%;
+    width: 100%;
+}
+.ac{
+    margin-left: 50%;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.aa{
+    height: 50%;
+    width: 75%;
+    margin-left: 6%;
+    padding-top: 50px;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#page4{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    margin-bottom: 0;
+    text-align: center;
+}
+#page4 h1{
+    color: white;
+    margin-top: 20px;
+    position: relative;
+}
+#page4 p{
+    left: 4%;
+    position: relative;
+    color: white;
+}
